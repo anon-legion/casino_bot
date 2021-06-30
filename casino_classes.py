@@ -1,5 +1,5 @@
 # Krzysztof requesting for comment regarding the direction I am taking before I proceed any further
-cardsInDeck = [suit + str(val) for suit in 'CDHS' for val in [i for i in range(2, 10)] + [0] + ['J', 'Q', 'K', 'A']]
+cards_in_deck = [suit + str(val) for suit in 'CDHS' for val in [i for i in range(2, 10)] + [0] + ['J', 'Q', 'K', 'A']]
 
 
 class Hand(object):
